@@ -33,6 +33,14 @@ simulation and training:
 python cartpole_train.py
 ```
 
+The following command line options are available:
+
+* -h, --help: Display help for command line usage
+* -r, --render: Render the CartPole-V1 environment on desktop popup
+* -e EPISODES, --episodes EPISODES: Number of training iterations (default=1,000)
+* -l LOAD, --load LOAD: Load previously saved model weights from file
+* -s SAVE, --save SAVE: Saved model weights to file after training completed
+
 ## References
 
 A list of useful resources to help you understand how this model works:
